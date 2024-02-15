@@ -1,0 +1,17 @@
+@keyframes levitate {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .logo-container.levitate {
+    animation: levitate 2s infinite; /* Increase the duration to slow down the animation */
+  }
+
+  #levitatingImage {
+    animation: levitate 1s infinite; /* Adjust the duration as needed */
+  }
+  
