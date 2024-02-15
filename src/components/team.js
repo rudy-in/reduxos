@@ -3,7 +3,9 @@ import React from 'react';
 import joekamprad from '../../src/joekamprad.jpeg';
 import EmptyPic from '../../src/empty.png';
 import Rudy from '../../src/rudy.jpg';
-import Brian from '../../src/brian.png'
+import Brian from '../../src/brian.png';
+import Bogdan from '../../src/bogdan.png'
+
 
 const Teams = () => {
   return (
@@ -78,13 +80,13 @@ const Teams = () => {
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full" data-aos="fade-up">
             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
               <img
-                alt="Unkown"
+                alt="BogdanGiz"
                 className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                src={EmptyPic}
+                src={Bogdan}
               />
               <div className="flex-grow">
-                <h2 className="text-white title-font font-bold">Null</h2>
-                <p className="text-white">Empty</p>
+                <h2 className="text-white title-font font-bold">BogdanGiz</h2>
+                <p className="text-white">Package manager maintainer</p>
               </div>
             </div>
           </div>
