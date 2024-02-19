@@ -1,4 +1,4 @@
-
+import { Analytics } from '@vercel/analytics/react';
 import './index.css';
 import React from 'react';
 import Navbar from './components/navbar.js'
@@ -27,6 +27,7 @@ ReactDOM.render(
 function App() {
   return (
 <div>
+  <Analytics />
   <Navbar/>
   <Mainpage/>
   <PoweredBySection/>
