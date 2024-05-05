@@ -6,7 +6,7 @@ const Mainpage = () => {
       <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-30">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white/75 bg-white/10 ring-1 ring-white/30 font-bold hover:bg-white/20 hover:text-white/90">
-            ReduxOS is under development.
+            ReduxOS rdx1197263x coming soon.
           </div>
         </div>
         <div className="text-center">
